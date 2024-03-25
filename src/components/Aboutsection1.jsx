@@ -1,5 +1,6 @@
 import React from "react";
 import constructionImage from "../assets/construction2.jpg";
+import { Link } from "react-router-dom";
 
 const Aboutsection1 = () => {
   return (
@@ -18,8 +19,8 @@ const Aboutsection1 = () => {
           painting and construction services.{" "}
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-          <a
-            href="#"
+          <Link
+            to="/contact"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-orange-500 hover:bg-blue-800 dark:focus:ring-blue-900"
           >
             Contact
@@ -38,7 +39,7 @@ const Aboutsection1 = () => {
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

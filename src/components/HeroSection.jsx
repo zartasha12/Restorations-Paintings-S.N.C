@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import HeroImageSlider from "./HeroImageSlider";
 import { useTranslation } from "react-i18next";
 
@@ -14,9 +15,12 @@ const HeroSection = () => {
           <p className="font-poppins font-normal text-gray-300 text-[14px] lg:text-[18px] leading-[22px] lg:leading-[30.8px] max-w-[470px] mt-5">
             {t("HeroParagraph")}
           </p>
-          <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-white disabled:pointer-events-none disabled:opacity-50 bg-[#ef4444] h-10 px-4 py-2 mt-10">
+          <Link
+            to="/aboutus"
+            className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 text-white disabled:pointer-events-none disabled:opacity-50 bg-[#ef4444] h-10 px-4 py-2 mt-10"
+          >
             {t("More About")}
-          </button>
+          </Link>
         </div>
         <div className="lg:order-1">
           <HeroImageSlider />
