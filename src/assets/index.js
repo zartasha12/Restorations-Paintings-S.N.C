@@ -12,6 +12,16 @@ import people2 from './people2.jpg'
 import people3 from './people3.jpg'
 import BuildingRestoration from './BuildingRestoration.jpg';
 import ExteriorPainting from './ExteriorPainting.jpg'
+import commercialpaiting from './commercialpaiting.jpg'
+import StructuralRepairs from './StructuralRepairs.jpg'
+import RoofRestoration from './RoofRestoration.jpg'
+import InteriorRenovations from './InteriorRenovations.jpg'
+import WoodworkRestoration from './WoodworkRestoration.jpg'
+import fireDamage from './fireDamage.jpg'
+import BrickRestoration from './BrickRestoration.jpg'
+import DecorativeFinishes from './DecorativeFinishes.jpg'
+
+
 
 
 
@@ -31,4 +41,12 @@ export{
   people3,
   BuildingRestoration,
   ExteriorPainting,
+  DecorativeFinishes,
+  BrickRestoration,
+  fireDamage,
+  WoodworkRestoration,
+  InteriorRenovations,
+  commercialpaiting,
+  RoofRestoration,
+  StructuralRepairs
 }

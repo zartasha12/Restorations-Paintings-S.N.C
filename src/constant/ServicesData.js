@@ -1,4 +1,4 @@
-import {service1, service2, service3, people1, people2, people3, BuildingRestoration, ExteriorPainting}from '../assets/index.js'
+import {service1, service2, service3, people1, people2, people3, BuildingRestoration, ExteriorPainting, construction1, construction8,commercialpaiting, StructuralRepairs, RoofRestoration, InteriorRenovations, WoodworkRestoration, DecorativeFinishes, fireDamage, BrickRestoration}from '../assets/index.js'
 
 export const ServicesData = [
   {
@@ -19,7 +19,7 @@ export const ServicesData = [
   {
     id: 3,
     title: "Commercial Painting",
-    img: service3,
+    img: commercialpaiting,
     altText: "Testimonials",
     description: "With our business painting services, you may raise the appeal and professionalism of your commercial building. We provide superior finishes that wow clients and customers in a variety of settings, including restaurants, retail stores, workplaces, and warehouses.",
     
@@ -27,14 +27,14 @@ export const ServicesData = [
   {
     id: 4,
     title: "Structural Repairs:",
-    img: service1,
+    img: StructuralRepairs,
     altText: "Structural Repairs:",
     description: "Address structural issues such as cracks, settlement, or deterioration with our expert repair solutions. Our team conducts thorough assessments and implements strategic repair techniques to ensure the stability and longevity of your building."
   },
   {
     id: 5,
     title: "Roof Restoration",
-    img: service2,
+    img: RoofRestoration,
     altText: "Roof Restoration",
     description: "Extend the lifespan of your roof and protect your building from water damage with our professional roof restoration services. From repairing leaks to replacing damaged shingles or tiles, we ensure a watertight and durable roofing system",
     
@@ -42,7 +42,7 @@ export const ServicesData = [
   {
     id: 6,
     title: "Interior Renovations",
-    img: service3,
+    img: InteriorRenovations,
     altText: "Interior Renovations",
     description: "Modernize and upgrade interior spaces while preserving their historic charm with our interior renovation services. From updating mechanical systems to enhancing layout and finishes, we transform interiors to meet contemporary needs while respecting historical context.",
     
@@ -51,7 +51,7 @@ export const ServicesData = [
     id: 7,
     title: "Woodwork Restoration"
 ,
-    img: service3,
+    img: WoodworkRestoration,
     altText: "Woodwork Restoration",
     description: "Restore the beauty and integrity of historic woodwork, including trim, moldings, and decorative elements, with our woodwork restoration services. We repair, refinish, or replicate intricate wood details to match original craftsmanship.",
     
@@ -59,15 +59,15 @@ export const ServicesData = [
   {
     id: 8,
     title: "Decorative Finishes",
-    img: service3,
+    img: DecorativeFinishes,
     altText: "Decorative Finishes",
-    description: "Our customers have nice things to say about us",
+    description: "The styles of decorative finishes range greatly, from traditional to contemporary, and can be produced using a variety of methods, including texturing, painting, wallpapering, plastering, and applying speciality coatings.",
     
   },
   {
     id: 9,
     title: "Fire Damage Restoration",
-    img: service3,
+    img: fireDamage,
     altText: "Fire Damage Restoration",
     description: "Restore buildings damaged by fire with our comprehensive fire damage restoration services. We assess the extent of damage, remove debris, mitigate smoke and water damage, and rebuild affected areas to restore the building to pre-loss condition",
     
@@ -75,7 +75,7 @@ export const ServicesData = [
   {
     id: 10,
     title: " Brick and Stone Restoration",
-    img: service3,
+    img: BrickRestoration,
     altText: "Brick and Stone Restoration",
     description: "Preserve the timeless beauty of brick and stone surfaces with our brick and stone restoration services. We repair damaged masonry, repoint mortar joints, and clean and seal surfaces to enhance durability and aesthetic appeal",
     
@@ -84,12 +84,11 @@ export const ServicesData = [
 ];
 
 
-export const homePageImages = [
-  'url(homeImage1.jpg)',
-  'url(homeImage2.jpg)',
-  'url(homeImage3.jpg)',
+export const images = [
+  "url(src/assets/construction1.jpg)",
+  "url(src/assets/painting2.jpg)",
+  "url(src/assets/construction8.jpg)",
 ];
-
 
 export const aboutPageImages = [
   'url(homeImage1.jpg)',
