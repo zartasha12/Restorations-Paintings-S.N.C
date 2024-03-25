@@ -1,10 +1,11 @@
 import React from "react";
+import constructionImage from "../assets/construction2.jpg";
 
 const Aboutsection1 = () => {
   return (
     <div
       className="bg-center bg-no-repeat w-full bg-cover bg-gray-600 bg-blend-multiply"
-      style={{ backgroundImage: "url('src/assets/construction2.jpg')" }}
+      style={{ backgroundImage: `url(${constructionImage})` }}
     >
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
