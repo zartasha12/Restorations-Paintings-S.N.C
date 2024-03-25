@@ -86,26 +86,26 @@ export const ServicesData = [
 
 export const images = [
 
-  // {
-  //   id: 1,
-  //   img: construction1
+  {
+    id: 1,
+    img: construction1
 
-  // },
-  // {
-  //   id: 2,
-  //   img: painting2,
+  },
+  {
+    id: 2,
+    img: painting2,
     
-  // },
-  // {
-  //   id: 1,
-  //   img: construction8,
+  },
+  {
+    id: 1,
+    img: construction8,
     
-  // }
+  }
 
   
-  "url(src/assets/construction1.jpg)",
-  "url(src/assets/painting2.jpg)",
-  "url(src/assets/construction8.jpg)",
+  // "url(src/assets/construction1.jpg)",
+  // "url(src/assets/painting2.jpg)",
+  // "url(src/assets/construction8.jpg)",
 ];
 
 export const aboutPageImages = [
