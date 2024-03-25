@@ -25,7 +25,7 @@ const HeroImageSlider = () => {
       {images.map((image, index) => (
         <img
           key={`slide-${index}`}
-          src={image}
+          src={images.img}
           alt={`Slide ${index}`}
           className={`absolute inset-0 w-full h-full transition-opacity duration-2000 ${
             index === currentSlide ? "opacity-100" : "opacity-0"
