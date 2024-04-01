@@ -1,4 +1,4 @@
-import {service1, service2, service3, people1, people2, people3, BuildingRestoration, ExteriorPainting, construction1, construction8,commercialpaiting, StructuralRepairs, RoofRestoration, InteriorRenovations, WoodworkRestoration, DecorativeFinishes, fireDamage, BrickRestoration, painting2}from '../assets/index.js'
+import {service1, service2, service3, people1, people2, people3, BuildingRestoration, ExteriorPainting, construction1, construction8,commercialpaiting, StructuralRepairs, RoofRestoration, InteriorRenovations, WoodworkRestoration, DecorativeFinishes, fireDamage, BrickRestoration, painting2, image22, image31, image16}from '../assets/index.js'
 
 export const ServicesData = [
   {
@@ -88,17 +88,17 @@ export const images = [
 
   {
     id: 1,
-    img: construction1
+    img: image22,
 
   },
   {
     id: 2,
-    img: painting2,
+    img: image31
     
   },
   {
     id: 1,
-    img: construction8,
+    img: image16
     
   }
 
@@ -114,19 +114,16 @@ export const aboutPageImages = [
   'url(homeImage3.jpg)',
 ];
 
-export const testimonials = [
+export const testimonialimg = [
   {
     id: 1,
     img: people1,
-    name: "Michael Henry",
-    text: "Delivered exceptional artistic painting services but also tackled our renovation project with professionalism and skill. From start to finish,",
+    
   },
   {
     id: 2,
     img: people2,
-    name: "Laura K",
-    company: "Meta Limited",
-    text: "They seamlessly blended their artistic expertise with construction know-how, resulting in a space that is both functional and aesthetically pleasingThey took the time to understand our needs and delivered results that far exceeded our expectations. ",
+    
   },
   {
     id: 3,

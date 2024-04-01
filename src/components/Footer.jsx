@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const { t, i18n } = useTranslation(); // Destructure i18n from useTranslation()
   return (
-    <footer className="bg-gray-800 text-white py-10">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer className="bg-gray-800  text-white py-10">
+      <div className="container mx-auto  sm:px-6 lg:px-8 xl:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pr-8">
         <div>
           <div className="font-bold text-lg mb-4">
             Restorations & Paintings S.N.C
@@ -90,16 +90,44 @@ const Footer = () => {
         <div>
           <h4 className="font-bold text-lg mb-4">{t("Quick Links")}</h4>
           <nav className="flex flex-col space-y-2">
-            <Link to="" className="hover:text-gray-300" href="#" rel="ugc">
+            <Link
+              to="/home#top"
+              className="hover:text-gray-300"
+              href="#"
+              rel="ugc"
+            >
               {t("HOME")}
             </Link>
-            <Link to="" className="hover:text-gray-300" href="#" rel="ugc">
+            <Link
+              to="/aboutus#top"
+              className="hover:text-gray-300"
+              href="#"
+              rel="ugc"
+            >
               {t("ABOUT US")}
             </Link>
-            <Link to="" className="hover:text-gray-300" href="#" rel="ugc">
+            <Link
+              to="/services#top"
+              className="hover:text-gray-300"
+              href="#"
+              rel="ugc"
+            >
               {t("SERVICES")}
             </Link>
-            <Link to="" className="hover:text-gray-300" href="#" rel="ugc">
+            <Link
+              to="/gallery#top"
+              className="hover:text-gray-300"
+              href="#"
+              rel="ugc"
+            >
+              {t("GALLERY")}
+            </Link>
+            <Link
+              to="/contact#top"
+              className="hover:text-gray-300"
+              href="#"
+              rel="ugc"
+            >
               {t("CONTACT")}
             </Link>
           </nav>
@@ -112,12 +140,12 @@ const Footer = () => {
           </address>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.360744582911!2d10.873762675720151!3d44.77345037926162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ff2ce51268e1d%3A0x9fd4e41f72b295a3!2sVia%20Giovanni%20Pascoli%2C%2011%2C%2041012%20Carpi%20MO%2C%20Italy!5e0!3m2!1sen!2ses!4v1711288244034!5m2!1sen!2ses"
-            width="600"
+            width="400"
             height="250"
             style={{ border: "0" }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

@@ -13,21 +13,13 @@ const HeroImageSlider = () => {
   }, []);
 
   return (
-    <div
-      className="relative overflow-hidden rounded-lg shadow-lg"
-      style={{
-        width: "600px",
-        height: "400px",
-        aspectRatio: "600/400",
-        objectFit: "cover",
-      }}
-    >
+    <div className="relative overflow-hidden rounded-lg shadow-lg w-full sm:w-[600px] h-[300px] sm:h-[400px] md:h-[500px] lg:w-[400px] xl:w-[520px]">
       {images.map((image, index) => (
         <img
           key={`slide-${index}`}
           src={image.img}
           alt={`Slide ${index}`}
-          className={`absolute inset-0 w-full h-full transition-opacity duration-2000 ${
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-2000 ${
             index === currentSlide ? "opacity-100" : "opacity-0"
           }`}
         />

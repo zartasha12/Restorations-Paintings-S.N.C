@@ -1,7 +1,7 @@
 import {
   BrowserRouter as Router,
-  Route,
   Routes,
+  Route,
   Navigate,
 } from "react-router-dom";
 import Layout from "./layout/Layout.jsx";
@@ -12,6 +12,8 @@ import AboutUs from "./pages/AboutUs.jsx";
 import ServicePage from "./pages/ServicePage.jsx";
 import ScrollToTopButton from "./components/ScrollToTopButton.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
+import Gallery from "./pages/Gallery.jsx";
+import ErrorBoundary from "./ErrorBoundary.jsx";
 
 function App() {
   return (
@@ -43,6 +45,16 @@ function App() {
             <Layout>
               <WhatsAppButton />
               <ServicePage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/gallery"
+          element={
+            <Layout>
+              <WhatsAppButton />
+              <ScrollToTopButton />
+              <Gallery />
             </Layout>
           }
         />

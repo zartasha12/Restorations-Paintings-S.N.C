@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 const HeroSection = () => {
   const { t, i18n } = useTranslation();
   return (
-    <section className="mx-auto px-4 sm:px-6 lg:px-8 mt-8 rounded-lg shadow-2xl bg-[#1f2937]">
+    <section className="mx-auto px-4 sm:px-6 lg:px-8 mt-8  bg-[#1f2937]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center py-10">
         <div className="lg:order-2">
           <h1 className="font-poppins font-semibold text-[28px] lg:text-[58px] text-[white]">

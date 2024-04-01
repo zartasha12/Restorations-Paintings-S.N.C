@@ -1,0 +1,22 @@
+{
+  "contactUS": "Contattaci",
+  "contactParagraph": "Ci piacerebbe sentire la tua opinione! Se hai domande sui nostri servizi contattaci.",
+
+  "emailUs": "Mandaci una email:",
+  "emailParagraph": "Inviaci un'e-mail per domande generali, comprese opportunità di marketing e partnership.",
+
+  "callUs": "Chiamaci:",
+  "callParagraph": "Chiamaci per parlare con un membro del nostro team. Siamo sempre felici di aiutare.",
+
+  "support": "Supporto",
+  "supportParagraph": "Inviaci un'e-mail per domande generali, comprese opportunità di marketing e partnership.",
+  "supportButton": "Centro di supporto",
+  "sendMessage": "invia messaggio",
+
+  "firstName": "Nome di battesimo",
+  "lastName": "Cognome",
+  "yourEmail": "La Tua Email",
+  "phoneNumber": "Numero di Telefono",
+  "yourMessage": "Il Tuo Messaggio"
+}
+

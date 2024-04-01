@@ -5,7 +5,8 @@ const Layout = ({ children }) => {
   return (
     <div className="w-full overflow-hidden min-h-screen flex flex-col">
       <Header />
-      <div className="container mx-auto flex-1">{children}</div>
+
+      <div className="mx-auto container flex-1 ">{children}</div>
       <Footer />
     </div>
   );

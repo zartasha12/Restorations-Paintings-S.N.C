@@ -1,0 +1,21 @@
+{
+  "contactUS": "Contact Us",
+  "contactParagraph": "We'd love to hear from you! Whether you have questions about our services contact us.",
+
+  "emailUs": "Email US:",
+  "emailParagraph": "Email us for general queries, including marketing and partnership opportunities.",
+
+  "callUs": "Call Us:",
+  "callParagraph": "Call us to speak to a member of our team. We are always happy to help.",
+
+  "support": "Support",
+  "supportParagraph": "Email us for general queries, including marketing and partnership opportunities.",
+  "supportButton": "Support  Center",
+  "sendMessage": "Send Message",
+
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "yourEmail": "Your Email",
+  "phoneNumber": "Phone Number",
+  "yourMessage": "Your Message"
+}

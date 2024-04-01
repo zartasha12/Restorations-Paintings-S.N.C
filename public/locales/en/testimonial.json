@@ -1,0 +1,21 @@
+{
+  "testimonial_heading": "Our customers have nice things to say about us",
+  "testimonial_pargraph": "Ready to transform your space with our artistic painting or construction services? Contact us today to discuss your project requirements and discover how Restorations & Paintings S.N.C can bring your vision to life.",
+
+  "testimonial": [
+
+    {
+      "name": "Michael Henry",
+      "description": "Delivered exceptional artistic painting services but also tackled our renovation project with professionalism and skill. From start to finish."
+    },
+    {
+      "name": "Laura K",
+      "description": "They seamlessly blended their artistic expertise with construction know-how, resulting in a space that is both functional and aesthetically pleasingThey took the time to understand our needs and delivered results that far exceeded our expectations."
+    },
+    {
+      "name": "David",
+      "description": "Their attention to detail and commitment to quality were evident throughout the entire process. They seamlessly blended their artistic expertise with construction know-how, resulting in a space that is both functional and aesthetically."
+    }
+  ]
+
+}

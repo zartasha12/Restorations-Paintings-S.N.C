@@ -3,15 +3,21 @@
   "ABOUT US": "Chi siamo",
   "SERVICES": "Servizi",
   "CONTACT": "Contatto",
+  "GALLERY": "Galleria",
+  "ourGallery":  "La nostra Galleria",
+
+
+  
+  "loadMore": "carica altro",
   "LANGUAGE": "italian",
   "Projects Completed": "Proyectos completados",
 
   "Quick Links": "Link veloci",
   "Location": "Posizione e contatti",
-  "CompanyDetailFooter": "Preservare la bellezza dell'arte attraverso un restauro meticoloso e creare dipinti affascinanti che ispirino.",
+  "CompanyDetailFooter": "Preservare la bellezza dell'arte attraverso un restauro meticoloso e creare dipinti affascinanti che ispirino",
 
 
-  "HeroHeading": " Restorations & Paintings S.N.C",
+  "HeroHeading": "Restauri & Tinteggi S.N.C",
   "HeroParagraph": "Il nostro team di professionisti esperti e il nostro forte impegno per la qualità ci permettono di specializzarci nella pittura e nel restauro di opere di valore.",
   "More About": "Di più",
 
@@ -23,7 +29,38 @@
   "24/7 Paragraph": "Un team di supporto dedicato garantisce che la tua attività funzioni senza intoppi.",
 
   "40+": " Oltre 40 industrie servite",
-  "40+ Paragraph": "Potenziare diversi settori con le nostre soluzioni su misura"
+  "40+ Paragraph": "Potenziare diversi settori con le nostre soluzioni su misura",
+
+  "homeHighlightTitle": "La Parte In Evidenza Della Nostra Soluzione",
+  "homeHighlightParagraph": "Che si tratti di aggiungere dipinti accattivanti agli spazi interni o di far mantenere la stabilità delle strutture da parte di abili costruttori.",
+  "homeHighlight_1_title": "Competenza nella Pittura Artistica:",
+  "homeHighlight_1_Paragraph": "L'azienda vanta un team di talentuosi artisti specializzati nella creazione di dipinti accattivanti che valorizzano gli interni.",
+  
+  "homeHighlight_2_title": "Servizi di Costruzione Completi:",
+  "homeHighlight_2_Paragraph": "Offre una vasta gamma di servizi di costruzione, che includono ristrutturazioni, rimodellamenti, pittura interna ed esterna, riparazioni strutturali e nuovi progetti di costruzione.",
+  
+  "homeHighlight_3_title": "Soluzioni Su Misura:",
+  "homeHighlight_3_Paragraph": "Soluzioni personalizzate che soddisfano le preferenze e le visioni uniche dei loro clienti. La loro capacità di comprendere ed eseguire i requisiti del cliente garantisce che ogni progetto sia completato ai massimi standard.",
+  
+  "featureTitle": "Scopri Restorations & Paintings S.N.C",
+  "feature_1": "Servizi di Restauro Esperti", 
+  "feature_2": "Soluzioni Creative di Pittura", 
+  "feature_3": "Competenza Completa nella Costruzione", 
+  "feature_4": "Approccio Orientato al Cliente", 
+  "feature_5": "Anni di Esperienza e Competenza", 
+  "feature_6": "Tecniche e Materiali Innovativi", 
+  "feature_7": "Soddisfazione del Cliente Garantita",
+  
+  "helpingTeam_title": "Aiutare le squadre nel mondo con focus",
+  "helpingTeam_Paragraph": "Comprendiamo le sfide che le squadre affrontano nel mondo frenetico di oggi, e siamo impegnati nel fornire soluzioni innovative che ottimizzano i flussi di lavoro, migliorano la collaborazione e favoriscono il successo.",
+  
+  "Contact Us": "Contattaci"
+  
+  
+
+  
+
+  
   
 }
 

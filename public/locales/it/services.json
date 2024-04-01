@@ -1,0 +1,49 @@
+{
+  "SERVICES": "Servizi",
+  "our services": "I nostri servizi",
+  "See More": "Vedi altro",
+  "ServiceHeading": "Servizi Offerti da Restauri & Pitture S.N.C",
+  "ServiceParagraph": "offriamo una gamma completa di servizi su misura per soddisfare le diverse esigenze dei nostri clienti",
+  "services": {
+    "service1": {
+      "title": "Restauro edifici",
+      "description": "Con l'aiuto dei nostri ampi servizi di restauro, puoi riportare l'integrità e la bellezza degli edifici antichi e storici. Il nostro approccio prevede il revitalizzare gli edifici rispettando la loro storia e carattere distinti, che include la riparazione dei danni alla facciata e il mantenimento degli elementi architettonici."
+    },
+    "service2": {
+      "title": "Pittura e rifinitura esterna",
+      "description": "I nostri trattamenti di pittura esterna esperti proteggeranno la tua casa e aumenteranno il suo appeal. Garantiamo finiture durevoli che resistono alle intemperie e lasciano un'impressione duratura utilizzando vernici di alta qualità e metodi collaudati."
+    },
+    "service3": {
+      "title": "Pittura commerciale",
+      "description": "Con i nostri servizi di pittura commerciale, puoi aumentare l'appeal e la professionalità del tuo edificio commerciale. Offriamo finiture superiori che impressionano clienti e clienti in una varietà di ambienti, tra cui ristoranti, negozi al dettaglio, luoghi di lavoro e magazzini."
+    },
+    "service4": {
+      "title": "Riparazioni strutturali",
+      "description": "Affronta problemi strutturali come crepe, insediamenti o deterioramento con le nostre soluzioni di riparazione esperte. Il nostro team esegue valutazioni approfondite e implementa tecniche di riparazione strategiche per garantire la stabilità e la longevità del tuo edificio."
+    },
+    "service5": {
+      "title": "Restauro del tetto",
+      "description": "Prolunga la durata del tuo tetto e proteggi il tuo edificio dai danni causati dall'acqua con i nostri servizi professionali di restauro del tetto. Dalla riparazione delle perdite alla sostituzione di tegole danneggiate, garantiamo un sistema di copertura ermetico e resistente."
+    },
+    "service6": {
+      "title": "Ristrutturazioni interne",
+      "description": "Modernizza e aggiorna gli spazi interni preservando il loro fascino storico con i nostri servizi di ristrutturazione interna. Dall'aggiornamento dei sistemi meccanici al miglioramento della disposizione e delle finiture, trasformiamo gli interni per soddisfare le esigenze contemporanee rispettando il contesto storico."
+    },
+    "service7": {
+      "title": "Restauro di legno",
+      "description": "Ripristina la bellezza e l'integrità delle opere in legno storiche, tra cui bordi, modanature ed elementi decorativi, con i nostri servizi di restauro del legno. Ripariamo, rifiniamo o replichiamo dettagli in legno intricati per corrispondere alla lavorazione originale."
+    },
+    "service8": {
+      "title": "Finiture decorative",
+      "description": "Gli stili delle finiture decorative variano enormemente, dal tradizionale al contemporaneo, e possono essere realizzati utilizzando una varietà di metodi, tra cui texturizzazione, pittura, carta da parati, intonacatura e applicazione di rivestimenti speciali."
+    },
+    "service9": {
+      "title": "Restauro danni da incendio",
+      "description": "Ripristina gli edifici danneggiati dal fuoco con i nostri servizi completi di restauro danni da incendio. Valutiamo l'estensione dei danni, rimuoviamo detriti, mitigiamo danni da fumo e acqua e ricostruiamo le aree interessate per ripristinare l'edificio alle condizioni precedenti alla perdita."
+    },
+    "service10": {
+      "title": "Restauro di mattoni e pietre",
+      "description": "Preserva la bellezza senza tempo di superfici in mattoni e pietre con i nostri servizi di restauro di mattoni e pietre. Ripariamo murature danneggiate, puntelliamo giunti di malta e puliamo e sigilliamo superfici per migliorare la durata e l'appeal estetico."
+    }
+  }
+}

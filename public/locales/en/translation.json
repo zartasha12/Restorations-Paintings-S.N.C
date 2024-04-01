@@ -3,7 +3,12 @@
   "ABOUT US": "About Us",
   "SERVICES": "Services",
   "CONTACT": "Contact",
+  "GALLERY": "Gallery",
+  "ourGallery":  "Our Gallery",
 
+
+
+  "loadMore": "Load More",
   "LANGUAGE": "English",
   "Projects Completed": "Projects completed",
 
@@ -22,10 +27,41 @@
   "24/7 Paragraph": "Dedicated support team ensuring your business runs smoothly.",
 
   "40+": "40+ Industries Served",
-  "40+ Paragraph": "Empowering diverse sectors with our tailored solutions"
+  "40+ Paragraph": "Empowering diverse sectors with our tailored solutions",
+
+  "homeHighlightTitle":"The Highlighting Part Of Our Solution",
+  "homeHighlightParagraph": "whether it's adding eye-catching paintings to interior spaces or having skilled builders maintain the stability of structures.",
+  "homeHighlight_1_title": "Artistic Painting Expertise:",
+  "homeHighlight_1_Paragraph": "The company boasts a team of talented artists who specialize in creating captivating paintings that enhance interiors.",
+
+  "homeHighlight_2_title": "Comprehensive Construction Services:",
+  "homeHighlight_2_Paragraph": "Offers a comprehensive range of construction services, covering renovations, remodeling, interior and exterior painting, structural repairs, and new construction projects.",
+
+  "homeHighlight_3_title": "Tailored Solutions:",
+  "homeHighlight_3_Paragraph": "tailored solutions that meet the unique preferences and visions of their clients. Their ability to understand and execute on client requirements ensures that each project is completed to the highest standards.",
+
+  "featureTitle": "Discover Restorations & Paintings S.N.C",
+  "feature_1": "Expert Restoration Services", 
+  "feature_2": "Creative Painting Solutions", 
+  "feature_3": "Comprehensive Construction Expertise", 
+  "feature_4": "Client-Centric Approach", 
+  "feature_5": "Years of Experience and Expertise", 
+  "feature_6": "Innovative Techniques and Materials", 
+  "feature_7": "Customer Satisfaction Guaranteed",
+
+  "helpingTeam_title": "Helping teams in the world with focus",
+  "helpingTeam_Paragraph": "We understand the challenges that teams face in today's fast-paced world, and we're committed to providing innovative solutions that streamline workflows, enhance collaboration, and drive success.",
+
+  "Contact Us": "Contact Us"
+
+  
 
 
 
   
+  
+  
+
+
 
 }

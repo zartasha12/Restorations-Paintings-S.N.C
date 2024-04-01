@@ -1,17 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Highlight = () => {
+  const { t, i18n } = useTranslation("translation"); // Destructure i18n from useTranslation()
+
   return (
     <section className="conatiner bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h3 className="text-3xl font-bold mb-4">
-            The Highlighting Part Of Our Solution
-          </h3>
-          <p>
-            whether it's adding eye-catching paintings to interior spaces or
-            having skilled builders maintain the stability of structures.
-          </p>
+          <h3 className="text-3xl font-bold mb-4">{t("homeHighlightTitle")}</h3>
+          <p>{t("homeHighlightParagraph")}</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div
@@ -37,11 +35,8 @@ const Highlight = () => {
                 <path d="M13 9h4" />
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10Z" />
               </svg>
-              <h4 className="font-bold mb-2">Artistic Painting Expertise:</h4>
-              <p>
-                The company boasts a team of talented artists who specialize in
-                creating captivating paintings that enhance interiors.
-              </p>
+              <h4 className="font-bold mb-2">{t("homeHighlight_1_title")}</h4>
+              <p>{t("homeHighlight_1_Paragraph")}</p>
             </div>
           </div>
           <div
@@ -64,14 +59,8 @@ const Highlight = () => {
                 <polyline points="9 17 4 12 9 7" />
                 <path d="M20 18v-2a4 4 0 0 0-4-4H4" />
               </svg>
-              <h4 className="font-bold mb-2">
-                Comprehensive Construction Services
-              </h4>
-              <p>
-                Offers a comprehensive range of construction services, covering
-                renovations, remodeling, interior and exterior painting,
-                structural repairs, and new construction projects.
-              </p>
+              <h4 className="font-bold mb-2">{t("homeHighlight_2_title")}</h4>
+              <p>{t("homeHighlight_2_Paragraph")}</p>
             </div>
           </div>
           <div
@@ -97,13 +86,8 @@ const Highlight = () => {
                 <path d="M6 20v-1a2 2 0 1 0-4 0v1a2 2 0 1 0 4 0Z" />
                 <path d="M2 19v-3a6 6 0 0 1 12 0v3" />
               </svg>
-              <h4 className="font-bold mb-2">Tailored Solutions</h4>
-              <p>
-                tailored solutions that meet the unique preferences and visions
-                of their clients. Their ability to understand and execute on
-                client requirements ensures that each project is completed to
-                the highest standards.
-              </p>
+              <h4 className="font-bold mb-2">{t("homeHighlight_3_title")}</h4>
+              <p>{t("homeHighlight_3_Paragraph")}</p>
             </div>
           </div>
         </div>

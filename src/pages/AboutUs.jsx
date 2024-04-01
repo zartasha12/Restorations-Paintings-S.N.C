@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Aboutsection1 from "../components/Aboutsection1.jsx";
 
 const AboutUs = () => {
-  const { t } = useTranslation(); // Hook for accessing translation functions
+  const { t } = useTranslation("aboutus"); // Hook for accessing translation functions
   return (
     <>
       <div className="mx-auto px-4 sm:px-6 lg:px-8 py-10 mb-10">
@@ -38,10 +38,7 @@ const AboutUs = () => {
                 </div>
 
                 <p className="mt-5 text-base text-gray-500">
-                  In the realm of artistic painting, our team of talented
-                  artists specializes in creating captivating works that breathe
-                  life into interiors, elevate atmospheres, and inspire
-                  admiration.
+                  {t("aboutHighlight_1")}
                 </p>
               </div>
             </div>
@@ -70,8 +67,7 @@ const AboutUs = () => {
                 </div>
 
                 <p className="mt-5 text-base text-gray-500">
-                  From renovations and remodeling to interior and exterior
-                  painting, structural repairs, and new construction projects,
+                  {t("aboutHighlight_2")}
                 </p>
               </div>
             </div>
@@ -101,10 +97,7 @@ const AboutUs = () => {
                 </div>
 
                 <p className="mt-5 text-base text-gray-500">
-                  Whether it's enhancing a room with a splash of color or
-                  constructing a new building from the ground up, we combine
-                  creativity, craftsmanship, and professionalism to achieve
-                  results that exceed expectations.
+                  {t("aboutHighlight_3")}
                 </p>
               </div>
             </div>
@@ -113,15 +106,13 @@ const AboutUs = () => {
         <div className="mt-20">
           <div className="text-center">
             <p className="text-sm font-semibold text-gray-500 tracking-wide uppercase">
-              Our values
+              {t("our value")}
             </p>
             <h2 className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Ready to embark on a journey with us
+              {t("valueHeading")}
             </h2>
             <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-              Reach out to us today to discuss your project requirements and
-              experience firsthand how Restorations & Paintings S.N.C can bring
-              your vision to life.
+              {t("valueParagraph")}
             </p>
           </div>
           <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -148,13 +139,10 @@ const AboutUs = () => {
                     </span>
                   </div>
                   <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                    Excellence
+                    {t("value_1_Heading")}
                   </h3>
                   <p className="mt-5 text-base text-gray-500">
-                    We are committed to excellence in every aspect of our work,
-                    striving to exceed expectations and deliver exceptional
-                    results that showcase our dedication to craftsmanship and
-                    quality.
+                    {t("value_1_Paragraph")}
                   </p>
                 </div>
               </div>
@@ -182,14 +170,10 @@ const AboutUs = () => {
                     </span>
                   </div>
                   <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                    Client Satisfaction
+                    {t("value_2_Heading")}
                   </h3>
                   <p className="mt-5 text-base text-gray-500">
-                    We prioritize client satisfaction above all else,
-                    understanding that our success is intricately linked to the
-                    success of our clients. We listen attentively to their
-                    needs, communicate openly, and go above and beyond to ensure
-                    their expectations are not only met but exceeded.
+                    {t("value_2_Paragraph")}
                   </p>
                 </div>
               </div>
@@ -219,14 +203,10 @@ const AboutUs = () => {
                     </span>
                   </div>
                   <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                    Sustainability
+                    {t("value_3_Heading")}
                   </h3>
                   <p className="mt-5 text-base text-gray-500">
-                    From responsibly sourced materials to eco-friendly
-                    construction methods, we strive to uphold environmental
-                    stewardship in all our endeavors.easure what matters with
-                    Untitled's easy-to-use reports. You can filter, export, and
-                    drill down on the data in a couple clicks.
+                    {t("value_3_Paragraph")}
                   </p>
                 </div>
               </div>
@@ -254,13 +234,10 @@ const AboutUs = () => {
                     </span>
                   </div>
                   <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                    Integrity
+                    {t("value_4_Heading")}
                   </h3>
                   <p className="mt-5 text-base text-gray-500">
-                    Integrity forms the foundation of our interactions with
-                    clients, partners, and team members. We conduct ourselves
-                    with honesty, transparency, and respect, fostering trust and
-                    long-lasting relationships.
+                    {t("value_4_Paragraph")}
                   </p>
                 </div>
               </div>

@@ -1,23 +1,26 @@
 import React from "react";
 import featureimg from "../assets/fecture.svg";
+import { useTranslation } from "react-i18next";
 
 const Feature = () => {
+  const { t, i18n } = useTranslation("translation"); // Destructure i18n from useTranslation()
+
   return (
     <section className="container mx-auto px-4 py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
         <div className="md:order-1">
           <h3 className="font-poppins font-semibold text-xl  text-black  mb-4">
-            Discover Restorations & Paintings S.N.C
+            {t("featureTitle")}
           </h3>
 
           <ul className="list-disc pl-5 space-y-2  ">
-            <li>Expert Restoration Services</li>
-            <li>Creative Painting Solutions</li>
-            <li>Comprehensive Construction Expertise</li>
-            <li>Client-Centric Approach</li>
-            <li>Years of Experience and Expertise</li>
-            <li>Innovative Techniques and Materials</li>
-            <li>Customer Satisfaction Guaranteed</li>
+            <li>{t("feature_1")}</li>
+            <li> {t("feature_2")}</li>
+            <li> {t("feature_3")}</li>
+            <li> {t("feature_4")}</li>
+            <li> {t("feature_5")}</li>
+            <li> {t("feature_6")}</li>
+            <li> {t("feature_7")}</li>
           </ul>
         </div>
 

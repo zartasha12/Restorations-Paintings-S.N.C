@@ -1,0 +1,49 @@
+{
+  "SERVICES": "Services",
+  "our services": "Our Services",
+  "See More": "See More",
+  "ServiceHeading": "Services Offered by Restorations & Paintings S.N.C",
+  "ServiceParagraph": "we offer a comprehensive range of services tailored to meet the diverse needs of our clients",
+  "services": {
+    "service1": {
+      "title": "Building Restoration",
+      "description": "With the help of our extensive restoration services, you can bring back the integrity and beauty of old and historic buildings. Our approach involves revitalising buildings while respecting their distinct history and character, which includes fixing facade damage and maintaining architectural elements."
+    },
+    "service2": {
+      "title": "Exterior Painting and Finishing",
+      "description": "Our skilled exterior painting treatments will protect your house and increase its curb appeal. We guarantee durable finishes that refuse weather and leave a lasting impact by using premium paints and tried-and-true methods"
+    },
+    "service3": {
+      "title": "Commercial Painting",
+      "description": "With our business painting services, you may raise the appeal and professionalism of your commercial building. We prove superior finishes that wow clients and customers in a variety of settings, including restaurants, retail stores, workplaces, and warehouses."
+    },
+    "service4": {
+      "title": "Structural Repairs:",
+      "description": "Address structural issues such as cracks, settlement, or deterioration with our expert repair solutions. Our team conducts thorough assessments and implements strategic repair techniques to ensure the stability and longevity of your building."
+    },
+    "service5": {
+      "title": "Roof Restoration",
+      "description": "Extend the lifespan of your roof and protect your building from water damage with our professional roof restoration services. From repairing leaks to replacing damaged shingles or tiles, we ensure a watertight and durable roofing system"
+    },
+    "service6": {
+      "title": "Interior Renovations",
+      "description": "Modernize and upgrade interior spaces while preserving their historic charm with our interior renovation services. From updating mechanical systems to enhancing layout and finishes, we transform interiors to meet contemporary needs while respecting historical context."
+    },
+    "service7": {
+      "title": "Woodwork Restoration",
+      "description": "Restore the beauty and integrity of historic woodwork, including trim, moldings, and decorative elements, with our woodwork restoration services. We repair, refinish, or replicate intricate wood details to match original craftsmanship."
+    },
+    "service8": {
+      "title": "Decorative Finishes",
+      "description": "The styles of decorative finishes range greatly, from traditional to contemporary, and can be produced using a variety of methods, including texturing, painting, wallpapering, plastering, and applying speciality coatings."
+    },
+    "service9": {
+      "title": "Fire Damage Restoration",
+      "description": "Restore buildings damaged by fire with our comprehensive fire damage restoration services. We assess the extent of damage, remove debris, mitigate smoke and water damage, and rebuild affected areas to restore the building to pre-loss condition"
+    },
+    "service10": {
+      "title": " Brick and Stone Restoration",
+      "description": "Preserve the timeless beauty of brick and stone surfaces with our brick and stone restoration services. We repair damaged masonry, repoint mortar joints, and clean and seal surfaces to enhance durability and aesthetic appeal"
+    }
+  }
+}
