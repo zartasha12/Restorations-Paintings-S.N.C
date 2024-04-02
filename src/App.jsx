@@ -19,59 +19,57 @@ import ErrorBoundary from "./ErrorBoundary.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <Router>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Layout>
-                <WhatsAppButton />
-                <ScrollToTopButton />
-                <MainPage />
-              </Layout>
-            }
-          />
-          <Route
-            path="/aboutus"
-            element={
-              <Layout>
-                <WhatsAppButton />
-                <ScrollToTopButton />
-                <AboutUs />
-              </Layout>
-            }
-          />
-          <Route
-            path="/services"
-            element={
-              <Layout>
-                <WhatsAppButton />
-                <ServicePage />
-              </Layout>
-            }
-          />
-          <Route
-            path="/gallery"
-            element={
-              <Layout>
-                <WhatsAppButton />
-                <ScrollToTopButton />
-                <Gallery />
-              </Layout>
-            }
-          />
-          <Route
-            path="/contact"
-            element={
-              <Layout>
-                <WhatsAppButton />
-                <ContactPage />
-              </Layout>
-            }
-          />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      </Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <WhatsAppButton />
+              <ScrollToTopButton />
+              <MainPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/aboutus"
+          element={
+            <Layout>
+              <WhatsAppButton />
+              <ScrollToTopButton />
+              <AboutUs />
+            </Layout>
+          }
+        />
+        <Route
+          path="/services"
+          element={
+            <Layout>
+              <WhatsAppButton />
+              <ServicePage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/gallery"
+          element={
+            <Layout>
+              <WhatsAppButton />
+              <ScrollToTopButton />
+              <Gallery />
+            </Layout>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Layout>
+              <WhatsAppButton />
+              <ContactPage />
+            </Layout>
+          }
+        />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </BrowserRouter>
   );
 }

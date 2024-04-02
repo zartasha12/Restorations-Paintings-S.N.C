@@ -15,15 +15,15 @@ const HeaderLinks = () => {
           <span> (+39 ) 3288818283</span>
         </div>
         <div className="social-links flex ">
-          <links className="mr-4 text-3xl cursor-pointer">
+          <Link className="mr-4 text-3xl cursor-pointer">
             <BiLogoFacebookSquare />
-          </links>
-          <links className="mr-4 text-3xl cursor-pointer">
+          </Link>
+          <Link className="mr-4 text-3xl cursor-pointer">
             <AiOutlineInstagram />{" "}
-          </links>
-          <links className="mr-4 text-3xl cursor-pointer">
+          </Link>
+          <Link className="mr-4 text-3xl cursor-pointer">
             <BsTwitter />{" "}
-          </links>
+          </Link>
         </div>
       </div>
     </header>
