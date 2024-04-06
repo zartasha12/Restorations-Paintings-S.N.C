@@ -1,3 +1,4 @@
+import React from "react";
 import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 import Layout from "./layout/Layout.jsx";
 import MainPage from "./pages/MainPage.jsx";
